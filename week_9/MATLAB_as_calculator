@@ -1,0 +1,11 @@
+format compact
+%declaring principle as p
+p = 1000
+%declaring rate of interest as r in decimal form 
+r = 0.10
+%declaring n as number of times the amount is compounded in a year
+n = 1
+%declaring time as t
+t = 2
+%compound interest formula
+debt = p*(1 + r/n)^(n*t)
